@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014/6/30 上午 01:44:17
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014/8/15 下午 05:33:30
 
 BeginCmp
 TimeStamp = /53AF30B8;
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /527DD19C;
 Reference = U1;
 ValeurCmp = LM1876;
-IdModule  = lmopamp-LM1876;
+IdModule  = LM1876TF;
 EndCmp
 
 EndListe

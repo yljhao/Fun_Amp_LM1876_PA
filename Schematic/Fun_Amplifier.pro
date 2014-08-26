@@ -1,4 +1,4 @@
-update=2014/6/29 下午 12:52:47
+update=2014/8/15 下午 05:30:22
 last_client=pcbnew
 [eeschema]
 version=1
@@ -71,10 +71,10 @@ EquName1=devcms
 version=1
 LastNetListRead=Fun_Amplifier.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=1.016000000000
+PadDrillOvalY=1.016000000000
+PadSizeH=1.524000000000
+PadSizeV=3.048000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -87,7 +87,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=Library
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -104,4 +104,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=Library/lmopamp
+LibName17=Library/LM1876TF
