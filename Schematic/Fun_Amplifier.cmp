@@ -1,31 +1,31 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014/8/15 下午 05:33:30
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014/8/28 下午 01:07:05
 
 BeginCmp
 TimeStamp = /53AF30B8;
 Reference = C1;
 ValeurCmp = 0.1uF;
-IdModule  = CP6;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AF1BB1;
 Reference = C2;
 ValeurCmp = 4.7uF;
-IdModule  = C1V5;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AF20A7;
 Reference = C3;
 ValeurCmp = 32uF;
-IdModule  = C1V5;
+IdModule  = C1V7;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AF1BC0;
 Reference = C4;
 ValeurCmp = 32uF;
-IdModule  = C1V5;
+IdModule  = C1V7;
 EndCmp
 
 BeginCmp
@@ -46,14 +46,14 @@ BeginCmp
 TimeStamp = /53AF2F50;
 Reference = C7;
 ValeurCmp = 0.1uF;
-IdModule  = CP6;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AF20B3;
 Reference = C8;
 ValeurCmp = 0.1uF;
-IdModule  = CP6;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
@@ -74,7 +74,14 @@ BeginCmp
 TimeStamp = /53AF1C2B;
 Reference = C11;
 ValeurCmp = 0.1uF;
-IdModule  = CP6;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC3644;
+Reference = C12;
+ValeurCmp = 4.7uF;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
@@ -85,7 +92,14 @@ IdModule  = bornier3;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AF210F;
+TimeStamp = /53FC357C;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC3AA7;
 Reference = P1;
 ValeurCmp = CONN_2;
 IdModule  = bornier2;
@@ -96,6 +110,13 @@ TimeStamp = /53AF2100;
 Reference = P2;
 ValeurCmp = CONN_2;
 IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FC363E;
+Reference = R1;
+ValeurCmp = 22K;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
