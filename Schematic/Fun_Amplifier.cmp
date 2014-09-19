@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014/8/28 下午 01:07:05
+Cmp-Mod V01 Created by PcbNew date = 2014/9/18 上午 09:07:51
 
 BeginCmp
 TimeStamp = /53AF30B8;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /53AF1BB1;
 Reference = C2;
 ValeurCmp = 4.7uF;
-IdModule  = C2;
+IdModule  = C1V7;
 EndCmp
 
 BeginCmp
@@ -32,14 +32,14 @@ BeginCmp
 TimeStamp = /53AF2739;
 Reference = C5;
 ValeurCmp = 1000uF;
-IdModule  = C2V10;
+IdModule  = CP_12.5x25mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AF272A;
 Reference = C6;
 ValeurCmp = 1000uF;
-IdModule  = C2V10;
+IdModule  = CP_12.5x25mm;
 EndCmp
 
 BeginCmp
@@ -57,17 +57,17 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AF265C;
+TimeStamp = /54053F2E;
 Reference = C9;
-ValeurCmp = 4700uF;
-IdModule  = C2V10;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AF266B;
+TimeStamp = /54053F3D;
 Reference = C10;
-ValeurCmp = 4700uF;
-IdModule  = C2V10;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
@@ -81,11 +81,95 @@ BeginCmp
 TimeStamp = /53FC3644;
 Reference = C12;
 ValeurCmp = 4.7uF;
-IdModule  = C2;
+IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AF20F1;
+TimeStamp = /54053F10;
+Reference = C15;
+ValeurCmp = 4700uF;
+IdModule  = CP_18x35.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053F1F;
+Reference = C16;
+ValeurCmp = 4700uF;
+IdModule  = CP_18x35.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053EC5;
+Reference = C17;
+ValeurCmp = 2200uF;
+IdModule  = CP_16x25mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053ED4;
+Reference = C18;
+ValeurCmp = 2200uF;
+IdModule  = CP_16x25mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5405320B;
+Reference = C19;
+ValeurCmp = 10nF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5405321A;
+Reference = C20;
+ValeurCmp = 10nF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053231;
+Reference = C21;
+ValeurCmp = 10nF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053237;
+Reference = C22;
+ValeurCmp = 10nF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54052C23;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D5_bigdip;
+EndCmp
+
+BeginCmp
+TimeStamp = /54052C32;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D5_bigdip;
+EndCmp
+
+BeginCmp
+TimeStamp = /54052C4E;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D5_bigdip;
+EndCmp
+
+BeginCmp
+TimeStamp = /54052C54;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D5_bigdip;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053778;
 Reference = K1;
 ValeurCmp = CONN_3;
 IdModule  = bornier3;
@@ -158,14 +242,14 @@ BeginCmp
 TimeStamp = /53AF2089;
 Reference = R7;
 ValeurCmp = 22K;
-IdModule  = R6;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AF1A09;
 Reference = R8;
 ValeurCmp = 22K;
-IdModule  = R6;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
@@ -194,6 +278,27 @@ TimeStamp = /53AF1A3F;
 Reference = R12;
 ValeurCmp = 0.1R;
 IdModule  = R6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053EE3;
+Reference = R17;
+ValeurCmp = 1R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /54053EF2;
+Reference = R18;
+ValeurCmp = 1R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /54051715;
+Reference = RV1;
+ValeurCmp = DUAL_POT_50K;
+IdModule  = Potentiometer_Alps-RK16-double_RevA_30July2010;
 EndCmp
 
 BeginCmp

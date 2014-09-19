@@ -1,5 +1,5 @@
-update=2014/8/15 下午 05:30:22
-last_client=pcbnew
+update=2014/9/17 上午 09:36:08
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=Library
@@ -62,19 +62,16 @@ LibName50=valves
 LibName51=video
 LibName52=xilinx
 LibName53=lmopamp
-[cvpcb]
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=Fun_Amplifier.net
 UseCmpFile=1
-PadDrill=1.016000000000
-PadDrillOvalY=1.016000000000
-PadSizeH=1.524000000000
-PadSizeV=3.048000000000
+PadDrill=1.500000000000
+PadDrillOvalY=1.500000000000
+PadSizeH=2.400000000000
+PadSizeV=2.400000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -87,7 +84,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=Library
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -105,3 +101,12 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=Library/LM1876TF
+LibName18=Pot_dual_alps_rk16
+LibName19=big_dip_diode
+LibName20=w_capacitors
+LibDir=Library
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
